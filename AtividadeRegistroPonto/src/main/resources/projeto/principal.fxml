@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="293.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projeto.MainController">
+   <children>
+      <TextField fx:id="campoCPF" layoutX="41.0" layoutY="51.0" prefHeight="33.0" prefWidth="212.0" promptText="CPF">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Button layoutX="84.0" layoutY="117.0" mnemonicParsing="false" onAction="#entrada" prefHeight="50.0" prefWidth="140.0" text="Entrada" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="84.0" layoutY="187.0" mnemonicParsing="false" onAction="#almoco" prefHeight="50.0" prefWidth="140.0" text="Almoço" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font></Button>
+      <Button layoutX="84.0" layoutY="254.0" mnemonicParsing="false" onAction="#retorno" prefHeight="50.0" prefWidth="140.0" text="Retorno" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="84.0" layoutY="324.0" mnemonicParsing="false" onAction="#saida" prefHeight="50.0" prefWidth="140.0" text="Saída" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
